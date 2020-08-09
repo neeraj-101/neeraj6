@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+</head>
+
+<body>
+
+
+  <!-- Nav-Bar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3">
+    <!-- Brand -->
+    <a class="navbar-brand ml-5" href="#"><img src="images/logo.svg" alt=""></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link mr-3 ml-3" href="#a">How we work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3 ml-3" href="#c">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3 ml-3" href="#b">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3 ml-3 plan" href="#">View plans</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <img class="bg_image_right" src="images/bg-pattern-intro-right-desktop.svg" alt="">
+  <img class="bg_image_left" src="images/bg-pattern-intro-left-desktop.svg" alt="">
+  <!-- First Container -->
+  <div class="first_container" id="c">
+    <div class="para_container">
+      <hr id="first">
+      <h1 class="heading_f">Humanizing your insurance.</h1><!-- heading close -->
+      <p class="f_para">
+        Get your life insurance coverage easier and faster. We blend our expertise
+        and technology to help you find the plan that’s right for you. Ensure you
+        and your loved ones are protected.
+      </p><!-- f_para close -->
+      <button class="plan_button">
+        View plans
+      </button><!-- plan_button close -->
+    </div><!-- para_container close -->
+    <img class="intro_img" src="images/image-intro-desktop.jpg" alt=""><!-- intro_img close -->
+  </div><!-- first_container close -->
+
+
+  <!-- Second Container -->
+  <div class="second_container" id="a">
+    <hr id="second">
+    <h1 class="heading_s">We’re different</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="inner">
+            <img src="images/icon-snappy-process.svg" alt="">
+            <div class="header">Snappy Process</div>
+            <div class="para">
+              Our application process can be completed in minutes, not hours. Don’t get
+              stuck filling in tedious forms.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <div class="inner">
+            <img src="images/icon-affordable-prices.svg" alt="">
+            <div class="header">Affordable Prices</div>
+            <div class="para">
+              We don’t want you worrying about high monthly costs. Our prices may be low,
+              but we still offer the best coverage possible.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="inner">
+            <img src="images/icon-people-first.svg" alt="">
+            <div class="header">People First</div>
+            <div class="para">
+              Our plans aren’t full of conditions and clauses to prevent payouts. We make
+              sure you’re covered when you need it.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- second_container close -->
+
+
+  <!-- Third Container -->
+  <div class="third_container">
+    <h1 class="heading_t">Find out more about how we work</h1>
+    <button class="plan_button_s">How we work</button>
+  </div><!-- third_container close -->
+
+
+  <!-- Fourth Container -->
+  <div class="fourth_container">
+    <div class="icon_container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div><!-- logo close -->
+      <div class="social_media_icon" id="b">
+        <img class="icon" src="images/icon-facebook.svg" alt="">
+        <img class="icon" src="images/icon-twitter.svg" alt="">
+        <img class="icon" src="images/icon-pinterest.svg" alt="">
+        <img class="icon" src="images/icon-instagram.svg" alt="">
+      </div><!-- social_media_icon close -->
+    </div><!-- icon_container close -->
+
+    <hr id="third">
+
+    <div class="footer">
+      <div class="footer_divs">
+        <div class="footer_heading">Our company</div>
+
+        <div class="footer_links">How we work</div>
+        <div class="footer_links">Why Insure?</div>
+        <div class="footer_links">View plans</div>
+        <div class="footer_links">Reviews</div>
+      </div>
+
+      <div class="footer_divs">
+        <div class="footer_heading">Help me</div>
+
+        <div class="footer_links">FAQ</div>
+        <div class="footer_links">Terms of use</div>
+        <div class="footer_links">Privacy policy</div>
+        <div class="footer_links">Cookies</div>
+      </div>
+
+      <div class="footer_divs">
+        <div class="footer_heading">Contact</div>
+
+        <div class="footer_links">Sales</div>
+        <div class="footer_links">Support</div>
+        <div class="footer_links">Live chat</div>
+      </div>
+
+      <div class="footer_divs">
+        <div class="footer_heading">Others</div>
+
+        <div class="footer_links">Careers</div>
+        <div class="footer_links">Press</div>
+        <div class="footer_links">Licenses</div>
+      </div>
+    </div><!-- footer close -->
+  </div><!-- fourth_container close -->
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
